@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Bem-vindo - Sign In</title>
+     <link rel="stylesheet" href="style.css">
+     <script src="https://kit.fontawesome.com/9b9d836f4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <div class="container">
+          <div class="btns-form">
+               <div class="btn-color"></div>
+               <button id="btnSignIn">Sign In</button>
+               <button id="btnSignUp">Sign Up</button>
+          </div>
+
+          <form id="signin">
+               <input type="text" placeholder="E-mail" required>
+               <i class="fa-solid fa-envelope iEmail"></i>
+               <input type="password" placeholder="Password" required>
+               <i class="fa-solid fa-lock iPassword"></i>
+               <div class="form-check">
+                    <input type="checkbox">
+                    <span>Remember Password</span>
+               </div>
+               <button type="submit">Sign in</button>
+          </form>
+
+          <form id="signup">
+               <input type="text" placeholder="E-mail" required>
+               <i class="fa-solid fa-envelope iEmail"></i>
+               <input type="password" placeholder="Password" required>
+               <i class="fa-solid fa-lock iPassword"></i>
+               <input type="password" placeholder="Password" required>
+               <i class="fa-solid fa-lock iPassword2"></i>
+               <div class="form-check">
+                    <input type="checkbox" required>
+                    <span>Terms</span>
+               </div>
+               <button type="submit">Sign up</button>
+          </form>
+     </div>
+
+     <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
